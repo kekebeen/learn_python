@@ -1,0 +1,11 @@
+ Classes use a special whitespace convention: the opening and closing quotes
+    are preceded and followed by a blank line, respectively. No other
+    docstrings should be preceded or followed by anything but code.
+    A blank line at the end of a multi-line docstring before the closing
+    quotation marks simply makes it easier for tooling to auto-format
+    paragraphs (wrapping them at 79 characters, per PEP8), without the closing
+    quotation marks interfering. For example, in Vim, you can use `G Q I P` to
+    "apply text formatting inside the paragraph." In Emacs, the equivalent
+    would be the `fill-paragraph` command. While it's not required, the
+    presence of a blank line is quite common and much appreciated. Regardless,
+    the closing quotation marks should certainly be on a line by themselves.
