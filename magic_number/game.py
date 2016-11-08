@@ -1,0 +1,5 @@
+import magic
+
+class Game():
+
+            
