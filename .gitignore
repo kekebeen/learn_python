@@ -46,3 +46,6 @@ venv
 
 #flask_flashcards venv folder
 flask_flashcards/flask
+#flask_flashcards db files
+flask_flashcards/app.db
+flask_flashcards/db_repository
