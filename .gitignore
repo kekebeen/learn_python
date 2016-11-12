@@ -43,3 +43,6 @@ vendor
 *.stackdump
 *.xml
 venv
+
+#flask_flashcards venv folder
+flask_flashcards/flask
