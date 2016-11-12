@@ -2,7 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9a911b0-91b0-442f-b5d1-6cab225262da" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/bin/python" afterPath="$PROJECT_DIR$/flask_sample/flask/bin/python" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/bin/python2" afterPath="$PROJECT_DIR$/flask_sample/flask/bin/python2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/include/python2.7" afterPath="$PROJECT_DIR$/flask_sample/flask/include/python2.7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/config" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/encodings" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/encodings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/lib-dynload" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/lib-dynload" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/UserDict.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/UserDict.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/_abcoll.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/_abcoll.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/_weakrefset.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/_weakrefset.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/abc.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/abc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/codecs.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/codecs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/copy_reg.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/copy_reg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/fnmatch.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/fnmatch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/genericpath.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/genericpath.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/linecache.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/linecache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/locale.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/locale.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/ntpath.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/ntpath.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/os.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/os.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/posixpath.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/posixpath.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/re.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/re.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/sre.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/sre.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/sre_compile.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/sre_compile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/sre_constants.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/sre_constants.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/sre_parse.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/sre_parse.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/stat.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/stat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/types.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/types.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/warnings.py" afterPath="$PROJECT_DIR$/flask_sample/flask/lib/python2.7/warnings.py" />
     </list>
     <ignored path="learn_python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -414,9 +441,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -432,9 +457,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -458,9 +481,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -468,9 +489,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#p#0;n#form#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -486,9 +505,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -512,9 +529,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -522,9 +537,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#p#0;n#form#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -540,9 +553,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -566,9 +577,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -576,9 +585,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#p#0;n#form#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -594,9 +601,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -700,9 +705,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -726,9 +729,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -760,9 +761,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -770,9 +769,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#p#0;n#form#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
