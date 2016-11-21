@@ -1,0 +1,45 @@
+<!DOCTYPE html>{% load static %}
+  <html>
+    <head>
+      <title>Directory</title>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700|Noto+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    </head>
+    <body>
+        <header class="site-header">
+          <h2><a class="logo ir" href="javascript:void(0)" title="django powered blog">django blog</a></h2>
+        </header>
+        <div class="container clearfix">
+          <main role="main" class="content">
+              {% for post in posts %}
+              <article class="post">
+                <h2><a href='{% url "details" id=post.id %}' title="{{ post.title }}">{{ post.title }}</a></h2>
+                <footer class="post-info">Posted on <span class="post-meta"><time datetime="{{ post.published }}">{{ post.published }}</time> tags </span></footer>
+
+                <a href='{% url "details" id=post.id %}' title="{{ post.title }}">Read more &raquo;</a>
+              </article>
+              {% endfor %}
+          </main>
+          <aside class="author">
+            <img class="profile-image" src="https://dl.dropboxusercontent.com/u/99892820/male-users/men1.jpg" alt="" />
+            <p class="name">by <strong>Raphael Riegger</strong></p>
+            <p class="address">Sydney, Australia</p>
+            <p class="link"><a href="http://rriegger.com" title="Raphael Riegger - UI/UX Designer">rriegger.com</a></p>
+
+            <ul class="social">
+              <li><a class="icon-twitter" href="http://twitter.com/rriegger" title="Follow me on Twitter"></a></li>
+              <li><a class="icon-dribbble" href="https://dribbble.com/rriegger" title="See what I'm working on Dribbble"></a></li>
+              <li><a class="icon-behance" href="https://www.behance.net/rriegger" title="Check out my work on Behance"></a></li>
+            </ul>
+
+          </aside>
+        </div>
+        <footer class="main-footer">
+          <div class="container clearfix">
+              <a class="icon-rss" href="javascript:void(0)" title="RSS Feed"></a>
+              <p>All content copyright <a href="http://rriegger.com" title="Raphael Riegger - UI/UX Designer">Raphael Riegger</a> &copy; 2014. All rights reserved.</p>
+              <p>Proudly published with Ghost. Theme designed and built by <a href="http://rriegger.com" title="Raphael Riegger - UI/UX Designer">Raphael Riegger</a></p>
+          </div>
+        </footer>
+    </body>
+  </html>
