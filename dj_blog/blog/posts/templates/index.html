@@ -14,7 +14,7 @@
               {% for post in posts %}
               <article class="post">
                 <h2><a href='{% url "details" id=post.id %}' title="{{ post.title }}">{{ post.title }}</a></h2>
-                <footer class="post-info">Posted on <span class="post-meta"><time datetime="{{ post.published }}">{{ post.published }}</time> tags </span></footer>
+                <footer class="post-info">Posted on <span class="post-meta"><time datetime="{{ post.timestamp }}">{{ post.timestamp }}</time> tags </span></footer>
 
                 <a href='{% url "details" id=post.id %}' title="{{ post.title }}">Read more &raquo;</a>
               </article>

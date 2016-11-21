@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9a911b0-91b0-442f-b5d1-6cab225262da" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dj_blog/blog/db.sqlite3" afterPath="$PROJECT_DIR$/dj_blog/blog/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dj_blog/blog/posts/models.py" afterPath="$PROJECT_DIR$/dj_blog/blog/posts/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dj_blog/blog/posts/templates/details.html" afterPath="$PROJECT_DIR$/dj_blog/blog/posts/templates/details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dj_blog/blog/posts/templates/index.html" afterPath="$PROJECT_DIR$/dj_blog/blog/posts/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dj_blog/blog/posts/urls.py" afterPath="$PROJECT_DIR$/dj_blog/blog/posts/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dj_blog/blog/posts/views.py" afterPath="$PROJECT_DIR$/dj_blog/blog/posts/views.py" />
     </list>
     <ignored path="learn_python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,18 +32,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dj_blog/blog/posts/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="271">
+              <caret line="16" column="131" selection-start-line="16" selection-start-column="131" selection-end-line="16" selection-end-column="131" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dj_blog/blog/posts/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            <state relative-caret-position="234">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -46,13 +51,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="details.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dj_blog/blog/posts/templates/details.html">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dj_blog/blog/blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+            <state relative-caret-position="520">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post_create.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dj_blog/blog/posts/templates/post_create.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dj_blog/blog/posts/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
               <folding>
-                <element signature="e#693#700#0" expanded="true" />
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="606">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dj_blog/blog/blog/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+              <folding>
+                <element signature="e#2474#2870#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -73,18 +120,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/flask_flashcards/run.py" />
-        <option value="$PROJECT_DIR$/flask_flashcards/app/forms.py" />
-        <option value="$PROJECT_DIR$/flask_flashcards/app/views.py" />
-        <option value="$PROJECT_DIR$/flask_flashcards/app/templates/index.html" />
-        <option value="$PROJECT_DIR$/flask_flashcards/app/templates/login.html" />
         <option value="$PROJECT_DIR$/flask_flashcards/app/templates/base.html" />
         <option value="$PROJECT_DIR$/flask_flashcards/app/db_create.py" />
         <option value="$PROJECT_DIR$/flask_flashcards/db_create.py" />
         <option value="$PROJECT_DIR$/flask_flashcards/db_migrate" />
         <option value="$PROJECT_DIR$/flask_flashcards/db_upgrade.py" />
         <option value="$PROJECT_DIR$/flask_flashcards/db_downgrade.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/flask_flashcards/config.py" />
         <option value="$PROJECT_DIR$/flask_flashcards/app/models.py" />
         <option value="$PROJECT_DIR$/flask_flashcards/seed.py" />
@@ -122,8 +163,14 @@
         <option value="$PROJECT_DIR$/dj_blog/venv/blog/posts/static/css/main.css" />
         <option value="$PROJECT_DIR$/dj_blog/venv/blog/posts/static/font/fontello.svg" />
         <option value="$PROJECT_DIR$/dj_blog/venv/blog/posts/templates/index.html" />
+        <option value="$PROJECT_DIR$/dj_blog/blog/posts/templates/index.html" />
         <option value="$PROJECT_DIR$/dj_blog/blog/posts/templates/details.html" />
+        <option value="$PROJECT_DIR$/dj_blog/blog/blog/settings.py" />
+        <option value="$PROJECT_DIR$/dj_blog/blog/posts/models.py" />
+        <option value="$PROJECT_DIR$/dj_blog/blog/blog/urls.py" />
         <option value="$PROJECT_DIR$/dj_blog/blog/posts/urls.py" />
+        <option value="$PROJECT_DIR$/dj_blog/blog/posts/views.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -247,7 +294,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="posts" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -272,8 +319,26 @@
               <option name="myItemId" value="posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="learn_python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn_python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dj_blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -580,19 +645,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/flask_flashcards/db_create.py" />
-    <entry file="file://$PROJECT_DIR$/flask_flashcards/db_upgrade.py" />
-    <entry file="file://$PROJECT_DIR$/flask_flashcards/db_downgrade.py" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_flashcards/app/views.py" />
-    <entry file="file://$PROJECT_DIR$/flask_flashcards/config.py" />
-    <entry file="file://$PROJECT_DIR$/flask_flashcards/seed.py" />
     <entry file="file://$PROJECT_DIR$/flask_flashcards/app/__init__.py" />
     <entry file="file://$PROJECT_DIR$/flask_flashcards/app/models.py" />
     <entry file="file://$PROJECT_DIR$/flask_flashcards/app/templates/base.html" />
@@ -828,29 +880,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dj_blog/blog/posts/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="271">
+          <caret line="16" column="131" selection-start-line="16" selection-start-column="131" selection-end-line="16" selection-end-column="131" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dj_blog/blog/posts/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dj_blog/blog/posts/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dj_blog/blog/posts/templates/details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        <state relative-caret-position="219">
+          <caret line="16" column="131" selection-start-line="16" selection-start-column="131" selection-end-line="16" selection-end-column="131" />
           <folding>
             <element signature="e#693#700#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dj_blog/blog/posts/urls.py">
+    <entry file="file://$PROJECT_DIR$/dj_blog/blog/posts/templates/post_create.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dj_blog/blog/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dj_blog/blog/posts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dj_blog/blog/blog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+          <folding>
+            <element signature="e#2474#2870#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dj_blog/blog/posts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

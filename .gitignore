@@ -49,3 +49,7 @@ flask_flashcards/flask
 #flask_flashcards db files
 flask_flashcards/app.db
 flask_flashcards/db_repository
+
+#django static
+staticfiles/
+static/

@@ -14,7 +14,7 @@
               <article class="post">
                 <a class="btn" href='{% url "index" %}' title="Back to homepage">&laquo; Back to home</a>
                 <h1><a href='{% url "details" id=post.id %}' title="{{ post.title }}">{{ post.title}}</a></h1>
-                <footer class="post-info">Posted on <span class="post-meta"><time datetime="{{ post.published }}">{{ post.published }}</time> tags</span></footer>
+                <footer class="post-info">Posted on <span class="post-meta"><time datetime="{{ post.timestamp }}">{{ post.timestamp }}</time> tags</span></footer>
                 {{ post.content }}
                 <ul class="share-buttons">
                     <li>Share this article:</li>
