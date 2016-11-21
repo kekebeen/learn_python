@@ -2,17 +2,71 @@
   <html>
     <head>
       <title>Directory</title>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700|Noto+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{% static 'css/main.css' %}">
     </head>
     <body>
-      <main>
-        <h1>Directory Detail</h1>
-          <section>
-              <div>{{ post.title }}</div>
-              <div>{{ post.content }}</div>
-              <div>{{ post.timestamp }}</div>
-              <div>{{ post.updated }}</div>
-              <div>{{ post.id }}</div>
-          </section>
-      </main>
+        <header class="site-header">
+          <h2><a class="logo ir" href="javascript:void(0)" title="django powered blog">django blog</a></h2>
+        </header>
+        <div class="container clearfix">
+          <main role="main" class="content">
+              <article class="post">
+                <a class="btn" href='{% url "index" %}' title="Back to homepage">&laquo; Back to home</a>
+                <h1><a href='{% url "details" id=post.id %}' title="{{ post.title }}">{{ post.title}}</a></h1>
+                <footer class="post-info">Posted on <span class="post-meta"><time datetime="{{ post.published }}">{{ post.published }}</time> tags</span></footer>
+                {{ post.content }}
+                <ul class="share-buttons">
+                    <li>Share this article:</li>
+                    <li><a class="icon-facebook-squared" href="#"
+                        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook"></a></li>
+                    <li><a class="icon-twitter"  href="#"
+                        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Tweet this page"></a></li>
+                    <li><a class="icon-gplus"  href="#"
+                       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+"></a></li>
+                    <li><a class="icon-linkedin"  href="#" onclick="window.open(this.href, 'linkedin-share', 'width=600,height=494');return false;" title="Share on LinkenIn"></a></li>
+                </ul>
+
+              </article>
+              <div class="comments">
+                <h3>Comments</h3>
+                  <div id="disqus_thread"></div>
+                  <script type="text/javascript">
+                      var disqus_shortname = 'USERNAME';
+                      var disqus_title = '{{title}}';
+
+                      (function() {
+                          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                      })();
+                  </script>
+                  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+              </div>
+          </main>
+          <aside class="author">
+
+            <img class="profile-image" src="https://dl.dropboxusercontent.com/u/99892820/male-users/men1.jpg" alt="" />
+            <p class="name">by <strong>Raphael Riegger</strong></p>
+            <p class="address">Sydney, Australia</p>
+            <p class="link"><a href="http://rriegger.com" title="Raphael Riegger - UI/UX Designer">rriegger.com</a></p>
+
+            <ul class="social">
+              <li><a class="icon-twitter" href="http://twitter.com/rriegger" title="Follow me on Twitter"></a></li>
+              <li><a class="icon-dribbble" href="https://dribbble.com/rriegger" title="See what I'm working on Dribbble"></a></li>
+              <li><a class="icon-behance" href="https://www.behance.net/rriegger" title="Check out my work on Behance"></a></li>
+            </ul>
+
+          </aside>
+        </div>
+
+        <footer class="main-footer">
+          <div class="container clearfix">
+              <a class="icon-rss" href="javascript:void(0)" title="RSS Feed"></a>
+              <p>All content copyright <a href="http://rriegger.com" title="Raphael Riegger - UI/UX Designer">Raphael Riegger</a> &copy; 2014. All rights reserved.</p>
+              <p>Proudly published with Ghost. Theme designed and built by <a href="http://rriegger.com" title="Raphael Riegger - UI/UX Designer">Raphael Riegger</a></p>
+          </div>
+        </footer>
     </body>
   </html>
