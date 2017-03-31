@@ -2,32 +2,33 @@
 
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var cssnano = require('gulp-cssnano');
-var sourcemaps = require('gulp-sourcemaps');
-var autoprefixer = require('gulp-autoprefixer');
-var rename = require('gulp-rename');
+var browserSync = require ('browser-sync').create();
 
-gulp.task('workflow', function () {
-    gulp.src('./src/scss/**/*.scss')
-        .pipe(sourcemaps.init())
-        .pipe(sass().on('error', sass.logError))
-        .pipe(autoprefixer({
-            browsers: ['last 2 versions'],
-            cascade: false
-        }))
-        .pipe(cssnano({
-            zindex: false
-        }))
-        .pipe(sourcemaps.write('./'))
-        .pipe(rename(function (path) {
-            if(path.extname === '.css') {
-                path.basename += '.min';
-            }
-        }))
-        .pipe(gulp.dest('./dist/css/'))
+gulp.task('sass', function () {
+   return gulp.src('./sass/app.scss')
+       .pipe(sass().on('error', sass.logError ))
+       .pipe(gulp.dest('./css/'))
+       .pipe(browserSync.stream());
 });
 
-//Watch task
-gulp.task('default', function () {
-  gulp.watch('./src/scss/**/*.scss', ['workflow']);
+gulp.task('browser-sync', function() {
+    browserSync.init({
+        server: {
+            baseDir: "./"
+        }
+    });
 });
+
+gulp.task('serve',['sass'], function () {
+    browserSync.init({
+        server: {
+            baseDir: "./"
+        }
+    });
+
+    gulp.watch('./sass/**/*.scss', ['sass']);
+    gulp.watch('./*.html').on('change', browserSync.reload);
+});
+
+
+gulp.task('default', ['serve']);
